@@ -1,0 +1,20 @@
+b = c2z3_tmp_b_1;
+a = c2z3_tmp_a_0;
+c = c2z3_tmp_c_2;
+t = 0;
+if (1 == a) {
+	b = 1 + b;
+	a = -1;
+	c = 1 + c;
+	t = 1 + t;
+} else if (a == -1) {
+	b = -1 + b;
+	a = 1;
+	c = -1 + c;
+	t = 1 + t;
+} else {
+	b = b;
+	a = a;
+	c = c;
+	t = 1 + t;
+}
